@@ -32,68 +32,68 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [march 18, 2026, 4:10 PM]
+**What I did**:Setup project and reviewed multithreading concepts.
 
-**Details**: 
+**Details**: Setup project and reviewed multithreading concepts.
 
-**Challenges**: 
+**Challenges**: Understanding thread creation.
 
-**Solution**: 
+**Solution**: Checked lecture examples and documentation
 
-**Time spent**: 
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 1 hour
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 2 - [March 19, 2026 — 6:30 PM]
+**What I did**: Implemented basic thread functions
 
-**Details**: 
+**Details**: .. 
 
-**Challenges**: 
+**Challenges**: hreads executed in random order.
 
-**Solution**: 
+**Solution**: Added print statements to track execution.
 
-**Time spent**: 
-
----
-
-### Entry 4 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 30 min
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+### Entry 3 - [March 20, 2026 — 3:00 PM]
+**What I did**: tested multiple threads running together.
 
 **Details**: 
 
-**Challenges**: 
+**Challenges**: Shared data caused unexpected results.
 
-**Solution**: 
+**Solution**: pplied synchronization techniques.
 
-**Time spent**: 
+**Time spent**: 50 min
+
+---
+
+### Entry 4 - [March 21, 2026 — 5:00 PM]
+**What I did**: Debugged program and improved performance
+
+**Details**: 
+
+**Challenges**: Difficulty identifying thread errors.
+
+**Solution**: Re-tested program step by step.
+
+**Time spent**: 1 hour
+
+---
+
+### Entry 5 - [March 22, 2026 — 7:00 PM]
+**What I did**: Final testing and documentation writing.
+
+**Details**: 
+
+**Challenges**: Ensuring correct output consistency.
+
+**Solution**: Ran multiple tests and verified results.
+
+**Time spent**: 1 hour
 
 ---
 
