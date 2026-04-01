@@ -58,10 +58,10 @@ If it doesn’t finish or needs to wait (like for I/O), it goes to the Waiting s
 
 **Your Answer:**
 
-### Example 1: [Web Server Handling Requests]
+### Example 1: [ Web Server Handling Requests]
 
 **Description**: 
-[ A web server handles multiple user requests at the same time using threads. Each request is treated like a separate task]
+[ A web server handles multiple user requests at the same time using threads. Each request is treated like a separate task.]
 
 **Why Round-Robin works well here**: 
 [Round-Robin ensures that every request gets a fair share of CPU time, so no user waits too long. It improves responsiveness and prevents one request from blocking others.]
