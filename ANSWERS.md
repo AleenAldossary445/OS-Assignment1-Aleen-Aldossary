@@ -79,10 +79,14 @@ If it doesn’t finish or needs to wait (like for I/O), it goes to the Waiting s
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+1. The difference between threads and processes
+ 2. How Round-Robin scheduling works
+ 3. The lifecycle of a thread
+
 
 **Concepts I need to study more:**
+1. Thread synchronization
+ 2. Advanced scheduling algorith
+
 1. 
 2. 
