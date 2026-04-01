@@ -58,21 +58,21 @@ If it doesn’t finish or needs to wait (like for I/O), it goes to the Waiting s
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+### Example 1: [Web Server Handling Requests]
 
 **Description**: 
-[Describe the real-world scenario or application]
+[ A web server handles multiple user requests at the same time using threads. Each request is treated like a separate task]
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+[Round-Robin ensures that every request gets a fair share of CPU time, so no user waits too long. It improves responsiveness and prevents one request from blocking others.]
 
-### Example 2: [Name of application/scenario]
+### Example 2: [Operating System Task Scheduling]
 
 **Description**: 
-[Describe the real-world scenario or application]
+[ An operating system runs multiple applications at the same time using threads (like browser, music, etc.).]
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+[It allows all applications to run smoothly by giving each one a small time slice. This makes the system feel fast and responsive to the user.]
 
 ---
 
