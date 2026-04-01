@@ -39,17 +39,16 @@ Example from my output:
 
 **Your Answer:**
 
-[Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
+[Process P1 starts in the New state when it is created. Then it moves to the Runnable state where it waits in the ready queue for CPU time. When selected, it enters the Running state and begins execution.
+If it doesn’t finish or needs to wait (like for I/O), it goes to the Waiting state. After that, it returns to the ready queue and continues execution. Finally, once it finishes completely, it enters the Terminated state.]
+1. New: P1 is in the New state when it is first created but has not started execution yet.
+ 3. Runnable: P1 becomes Runnable after it is ready to run and is waiting in the ready queue for CPU time.
+ 4. Running: P1 enters the Running state when the CPU starts executing it during its time quantum.
+ 5. Waiting: P1 goes to Waiting if it needs to wait for something like I/O or if it is paused before finishing.
+ 6. Terminated: P1 reaches the Terminated state when it completes all its execution and no longer needs the CPU.
 
-1. **New**: [When is P1 in New state?]
 
-2. **Runnable**: [When does P1 become Runnable?]
 
-3. **Running**: [When is P1 Running?]
-
-4. **Waiting**: [When/why would P1 be Waiting?]
-
-5. **Terminated**: [When is P1 Terminated?]
 
 ---
 
