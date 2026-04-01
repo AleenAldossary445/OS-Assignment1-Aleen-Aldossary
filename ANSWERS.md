@@ -21,15 +21,15 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 
 **Your Answer:**
 
-[Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
+[In Round-Robin scheduling, if a process does not finish within its time quantum, it is moved back to the end of the ready queue. This means it will wait for its turn again while other processes get CPU time. The process does not lose its progress, it just pauses and resumes later. For example, in my program output, when P1 used its time but didn’t finish, it was re-queued behind P2 and P3. Then it got CPU time again when its turn came back in the queue.]
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+[P1 (Priority: 1) added to ready queue ]
 ```
 
 **Explanation of example:**
-[Explain what's happening in the output snippet you pasted]
+[In this example, when process P1 was added to the ready queue, it got a chance to run for its assigned time quantum. Since it didn’t finish within that time, it was paused and moved to the end of the queue, allowing other processes like P2 and P3 to run. From the output, we can see that P1 was not removed; it simply waited for its next turn. When its turn came again, it continued execution from where it left off. This shows how Round-Robin scheduling ensures fairness by giving each process equal chances to use the CPU]
 
 ---
 
